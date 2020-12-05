@@ -31,9 +31,7 @@ public class Main {
     public static boolean workFour (int a, int b) {
         System.out.println("задание №4");
         int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
-            return true;
-        }
+        if (sum >= 10 && sum <= 20) return true;
         return false;
     }
     //5. Написать метод, которому в качестве параметра передается целое число,
